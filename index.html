@@ -5,41 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <style>
+      .navbar-nav .nav-item.a:hover{
+        text-underline-position: below;
+      }
+
+
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container">
-          <img src="./img/download.jpg" alt="" class="" style="width: 361pxpx; height: 111px;">
-          <a class= "navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarNav" style="margin-left: 30%">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active fs-4" aria-current="page" href="#">Home</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <img src="./img/download.jpg" alt="" class="ms-5 ps-5 " style="height: 70px;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+        <li class="nav-item">
+          <a class="nav-link  fw-bold" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#">Course</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link fw-bold"  href="#">Placement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#">Gallery</a>
+            <li class="nav-item">
+                <a class="nav-link fw-bold " href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black fs-4" href="#">About</a>
+                <a class="nav-link fw-bold" href="#">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-black fs-4" href="#">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black fs-4 ps-2"> placements</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black fs-4">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black fs-4">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
+       
+      </ul>
+      
+    </div>
+  </div>
+</nav>
 </body>
 </html>
