@@ -20,3 +20,43 @@
 h6{
     color: #5e068a;
 }
+.c1{
+    font-size: medium;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e068a;
+    color: white;
+    padding:0;
+    }
+.col-3{
+    margin-left: 8%;
+    display: flex;
+    width: 18%;
+}
+
+@media(orientation:portrait) {
+    .nav1{
+        display: list-item;
+        align-items: center;
+    }
+    .f1{
+        font-size:large;
+    }
+   p{
+        font-size: small;
+    }
+    button{
+        size: 5%;
+    }
+    .col-3{
+        display:contents;
+
+    }
+
+}
+.card :hover{
+background-color: darkgrey;
+}
