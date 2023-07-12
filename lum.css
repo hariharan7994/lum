@@ -1,5 +1,6 @@
 #height{
     height: 420px;
+    margin-top: 10%;
 }
 .about-container{
     margin-top: 60px;
@@ -23,6 +24,10 @@ h6{
 .c1{
     font-size: medium;
 }
+#s1{
+    margin-top: 10%;
+}
+
 .nav1{
     display: flex;
     justify-content: space-between;
@@ -55,8 +60,52 @@ h6{
         display:contents;
 
     }
+    #b6{
+        font-size: small;
+    }
+    .modal-dialog{
+        font-size: small;
+    }
+#b5{
+    font-size: small;
+}
+#k1:hover{
+    display: none;
+}
+#b1:hover{
+    transform: none;
+}
+#m2{
+    height: 100%;
+    width: 20%;
+}
+#b9{
+    font-size: small;
+    margin-left: 25%;
+}
+}
+#b1:hover{
+box-shadow: 5px 5px 20px gray;
+overflow: hidden;
+transform: scale(1.1) ;
+}
+.card{
+    width: 20%;
+    height: 10%;
+}
+#m1{
+    width: 99%;
 
 }
-.card :hover{
-background-color: darkgrey;
+#b9{
+    margin-left: 36%;
+    background-color:#5e068a;
+    color: white;
+
+
+}
+#b9:hover{
+    background-color: white;
+    color: #5e068a;
+    border-color: #5e068a;
 }
