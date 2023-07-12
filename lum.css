@@ -101,11 +101,12 @@ transform: scale(1.1) ;
     margin-left: 36%;
     background-color:#5e068a;
     color: white;
-
+border-radius: 0%;
 
 }
 #b9:hover{
     background-color: white;
     color: #5e068a;
     border-color: #5e068a;
+
 }
